@@ -160,6 +160,9 @@ footer p {
 i {
     font-style: normal;
 }
+.navbar .navbar-nav #ac{
+    color:#15A3C7;
+}
 .navbar .nav-item .dropdown-menu::-webkit-scrollbar {
     width: .2rem;
 }
@@ -313,6 +316,7 @@ i {
 #contact #left i{
     font-size:10rem;
     color:#fff;
+    position: absolute;
 }
 #contact #left i:hover{
     color:#15A3C7;
@@ -322,4 +326,7 @@ i {
     #contact #left{
         display:none;
     }
+}
+#contact .icon-container{
+    background:#1c1c1c;
 }
