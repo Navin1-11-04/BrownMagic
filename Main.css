@@ -254,3 +254,72 @@ i {
 .contact form button:hover {
     background-color: #0056b3;
 }
+#contact{
+    width:100%;
+    display:flex;
+    background-color: #1c1c1c;
+    margin:0;
+    height:auto;
+    padding:0;
+}
+#left{
+    flex:50%;
+    background-color:#1c1c1c;
+    border:0.5rem solid #fff;
+    margin:0;
+}
+#right{
+    flex:50%;
+    background-color:#fff;
+    border:0;
+    margin:0;
+    font-family:'Josefin Sans';
+}
+
+#contact #right input{
+    border-width:0px 0px 3px 0px;
+    border-radius: 0;
+    outline:0;
+    text-decoration: none;
+}
+#contact #right input:focus{
+   box-shadow: none;
+   color:#1c1c1c;
+   border-color: #15A3C7;
+}
+#contact #right textarea{
+    border-width:3px 3px;
+
+}
+#contact #right textarea:focus{
+   box-shadow:none;
+   border-color:#15A3C7;
+}
+#contact #right button{
+    padding:10px 40px;
+    margin-left:1.8rem;
+}
+#contact #right button:hover{
+    color:#fff;
+    background-color:#333333;
+
+}
+#contact #left{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+#contact #left i{
+    font-size:10rem;
+    color:#fff;
+}
+#contact #left i:hover{
+    color:#15A3C7;
+    text-shadow:2px 2px 1px #fff;
+}
+@media(max-width:991px){
+    #contact #left{
+        display:none;
+    }
+}
