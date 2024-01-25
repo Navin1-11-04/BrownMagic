@@ -1,154 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
     <link rel="stylesheet" href="Main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/46b30b263a.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <section>
-    <nav class="navbar navbar-expand-lg mt-lg-4 py-3 py-lg-4">
-      <div class="container-fluid">
-        <a class="navbar-brand mx-lg-4" href="#"><img src="images/logo.png" alt="logo" class="logo w-50 m-0 p-0"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
-        </button>
-        <div class="collapse navbar-collapse justify-content-evenly position-relative" id="navbarNav">
-          <ul class="navbar-nav gap-lg-4 mx-0">
-            <li class="nav-item me-0">
-              <a class="nav-link" href="index.html" target="_self">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="shop.html" target="_self" id="ac">Shop</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html" target="_self" >Contact Us</a>
-            </li>
-             <!--<li class="nav-item me-5">
-              <a class="nav-link" href="shop.html" target="_self">Shop</a>
-            </li>-->
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </section>
-  <section id="shoping">
-    <div class="container">
-        <div class="title">
-            <h5>SHOP</h5>
-        </div>
-        <div class="icon-cart">
-                <button class="btn fa-solid fa-cart-shopping" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span>0</span></button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Shopping Cart</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <section>
+        <nav class="navbar navbar-expand-lg mt-lg-4 py-3 py-lg-4">
+            <div class="container-fluid">
+                <a class="navbar-brand mx-lg-4" href="#"><img src="images/logo.png" alt="logo"
+                        class="logo w-50 m-0 p-0"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars" style="color: #ffffff;"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-evenly position-relative" id="navbarNav">
+                    <ul class="navbar-nav gap-lg-4 mx-0">
+                        <li class="nav-item me-0">
+                            <a class="nav-link" href="index.html" target="_self">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html" target="_self" id="ac">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html" target="_self">Contact Us</a>
+                        </li>
+                        <!-- <li class="nav-item me-5">
+                            <a class="nav-link" href="shop.html" target="_self">Shop</a>
+                        </li> -->
+                    </ul>
                 </div>
-                <div class="offcanvas-body">
-                    <div class="cart-list">
-                      <div class="cart-item">
-                        <div class="image">
-                          <img src="images/items/Salted Caramel Hot Cocoa.jpg" alt="cart-1">
-                        </div>
-                        <div class="name">NAME</div>
-                        <div class="totalprice">$200</div>
-                        <div class="quantity">
-                          <span class="minus"><i class="fa-solid fa-minus"></i></span>
-                          <span id="no-of">1</span>
-                          <span class="plus"><i class="fa-solid fa-plus"></i></span>
-                        </div>
-                      </div>
-                    </div>
-                </div>
-                <div class="grp-btns">
-                    <button class="close">ClOSE</button>
-                    <button class="checkOut">CHECK OUT</button>
-                  </div>
             </div>
-        </div>
-    </div>
-    <section id="shop-items">
+        </nav>
+    </section>
+    <section id="shoping">
         <div class="container">
-            <div class="products">
-                <h5>BEVERAGES</h5>
-                <div class="beverages">
-                    <div class="b1">
-                        <div class="image">
-                            <img src="images/items/Salted Caramel Hot Cocoa.jpg" alt="cart-1">
-                          </div>
-                          <div class="name">Name</div>
-                          <div class="totalprice">$200</div>
-                          <button class="tocart">Add to Cart</button>
+            <div class="title">
+                <h5>SHOP</h5>
+            </div>
+            <div class="icon-cart">
+                <button class="btn fas fa-shopping-cart" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span>0</span></button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Shopping Cart</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                    <div class="b1">
-                        <div class="image">
-                            <img src="images/items/Salted Caramel Hot Cocoa.jpg" alt="cart-1">
-                          </div>
-                          <div class="name">NAME</div>
-                          <div class="totalprice">$200</div>
-                          <button class="tocart">Add to Cart</button>
+                    <div class="offcanvas-body">
+                        <div class="cart-list">
+
+                        </div>
                     </div>
-                    <div class="b1">
-                        <div class="image">
-                            <img src="images/items/Salted Caramel Hot Cocoa.jpg" alt="cart-1">
-                          </div>
-                          <div class="name">NAME</div>
-                          <div class="totalprice">$200</div>
-                          <button class="tocart">Add to Cart</button>
-                    </div>
-                    <div class="b1">
-                        <div class="image">
-                            <img src="images/items/Salted Caramel Hot Cocoa.jpg" alt="cart-1">
-                          </div>
-                          <div class="name">NAME</div>
-                          <div class="totalprice">$200</div>
-                          <button class="tocart">Add to Cart</button>
-                    </div>
-                </div>
-                <h5>SNACKS</h5>
-                <div class="snacks">
-                    <div class="s1">
-                        <div class="image">
-                            <img src="images/items/Salted Caramel Hot Cocoa.jpg" alt="cart-1">
-                          </div>
-                          <div class="name">Name</div>
-                          <div class="totalprice">$200</div>
-                          <button class="tocart">Add to Cart</button>
-                    </div>
-                    <div class="s1">
-                        <div class="image">
-                            <img src="images/items/Salted Caramel Hot Cocoa.jpg" alt="cart-1">
-                          </div>
-                          <div class="name">NAME</div>
-                          <div class="totalprice">$200</div>
-                          <button class="tocart">Add to Cart</button>
-                    </div>
-                    <div class="s1">
-                        <div class="image">
-                            <img src="images/items/Salted Caramel Hot Cocoa.jpg" alt="cart-1">
-                          </div>
-                          <div class="name">NAME</div>
-                          <div class="totalprice">$200</div>
-                          <button class="tocart">Add to Cart</button>
-                    </div>
-                    <div class="s1">
-                        <div class="image">
-                            <img src="images/items/Salted Caramel Hot Cocoa.jpg" alt="cart-1">
-                          </div>
-                          <div class="name">NAME</div>
-                          <div class="totalprice">$200</div>
-                          <button class="tocart">Add to Cart</button>
+                    <div class="grp-btns">
+                        <button class="checkOut">CHECK OUT <i class="fa-solid fa-bag-shopping fa-lg"></i></button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-  </section>
+    <section id="shop-items">
+        <div class="container">
+            <div class="products">
+                <h5 class="text-white">BEVERAGES</h5>
+                <div class="beverages">
 
-  <script src="script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+                </div>
+                <h5 class="text-white">SNACKS</h5>
+                <div class="snacks">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

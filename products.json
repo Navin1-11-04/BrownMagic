@@ -1,0 +1,83 @@
+{"beverages" :[
+    {
+        "id":1,
+        "name":"Hot Cocoa",
+        "price":100,
+        "image":"images/items/Salted Caramel Hot Cocoa.jpg"
+    },
+    {
+        "id":2,
+        "name":"Cofee Ice Cream",
+        "price":80,
+        "image":"images/items/Coffee ice cream frappe recipe (homemade frappuccino).jpg"
+    },
+    {
+        "id":3,
+        "name":"Sydney Brunch",
+        "price":120,
+        "image":"images/items/The Ultimate Sydney Brunch & Coffee Guide _ Urban Pixxels.jpg"
+    },
+    {
+        "id":4,
+        "name":"Iced Americano",
+        "price":90,
+        "image":"images/items/Iced Americano.jpg"
+    },
+    {
+        "id":5,
+        "name":"Coconut Frappe",
+        "price":100,
+        "image":"images/items/Coconut Caramel Frappe.jpg"
+    },
+    {
+        "id":6,
+        "name":"Coconut Mocha",
+        "price":110,
+        "image":"images/items/Toasted Coconut Mocha.jpg"
+    }
+],
+"snacks":[
+    {
+        "id":1,
+        "name":"French fries",
+        "price":120,
+        "image":"images/items/Crispy Air Fryer French Fries (Fresh or Frozen).jpg"
+    },
+    {
+        "id":2,
+        "name":"Onion Pakoda",
+        "price":50,
+        "image":"images/items/Crispy Onion Pakoda (Kanda Bhaji, Indian Onion Fritters).jpg"
+    },
+    {
+        "id":3,
+        "name":"Shrimp Burger",
+        "price":240,
+        "image":"images/items/Korean-Style Shrimp Burger.jpg"
+    },
+    {
+        "id":4,
+        "name":"Aloo Samosa",
+        "price":20,
+        "image":"images/items/Aloo Samosa.jpg"
+    },
+    {
+        "id":5,
+        "name":"Egg Puffs",
+        "price":25,
+        "image":"images/items/Egg puffs.jpg"
+    },
+    {
+        "id":6,
+        "name":"Paneer Puffs",
+        "price":15,
+        "image":"images/items/Paneer Puffs.jpg"
+    },
+    {
+        "id":7,
+        "name":"Vada Pav",
+        "price":40,
+        "image":"images/items/Vada Pav.jpg"
+    }
+]
+}

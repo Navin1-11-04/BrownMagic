@@ -1,0 +1,44 @@
+[
+    {
+        "id":10,
+        "name":"French fries",
+        "price":120,
+        "image":"images/items/Crispy Air Fryer French Fries (Fresh or Frozen).jpg"
+    },
+    {
+        "id":20,
+        "name":"Onion Pakoda",
+        "price":50,
+        "image":"images/items/Crispy Onion Pakoda (Kanda Bhaji, Indian Onion Fritters).jpg"
+    },
+    {
+        "id":30,
+        "name":"Shrimp Burger",
+        "price":240,
+        "image":"images/items/Korean-Style Shrimp Burger.jpg"
+    },
+    {
+        "id":40,
+        "name":"Aloo Samosa",
+        "price":20,
+        "image":"images/items/Aloo Samosa.jpg"
+    },
+    {
+        "id":50,
+        "name":"Egg Puffs",
+        "price":25,
+        "image":"images/items/Egg puffs.jpg"
+    },
+    {
+        "id":60,
+        "name":"Paneer Puffs",
+        "price":15,
+        "image":"images/items/Paneer Puffs.jpg"
+    },
+    {
+        "id":70,
+        "name":"Vada Pav",
+        "price":40,
+        "image":"images/items/Vada Pav.jpg"
+    }
+]
